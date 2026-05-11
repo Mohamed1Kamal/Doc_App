@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_projects/feature/register/ui/widgets/register_body.dart';
 
+import '../../../core/di/dependency_injection.dart';
 import '../logic/cubit/cubit.dart';
 
 class RegisterView extends StatefulWidget {
@@ -15,11 +16,8 @@ class RegisterView extends StatefulWidget {
 class _RegisterViewState extends State<RegisterView> {
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => RegisterCubit(),
-      child: Scaffold(
-          body: RegisterBody()
-      ),
+    return Scaffold(
+        body: RegisterBody()
     );
   }
 }

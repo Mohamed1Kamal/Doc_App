@@ -25,7 +25,7 @@ class BuildSocialButton extends StatelessWidget {
           color: Colors.grey[100], // Background color of circle
           boxShadow: [
             BoxShadow(
-              color: ColorsApp.gray.withOpacity(0.1),
+              color: AppColors.gray.withOpacity(0.1),
               spreadRadius: 1,
               blurRadius: 3,
               offset: const Offset(0, 2),

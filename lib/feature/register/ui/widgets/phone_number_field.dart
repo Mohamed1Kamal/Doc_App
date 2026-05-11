@@ -19,7 +19,7 @@ class _PhoneNumberFieldState extends State<PhoneNumberField> {
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
-        border: Border.all(color: ColorsApp.lighterGray),
+        border: Border.all(color: AppColors.lighterGray),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Row(
@@ -51,7 +51,7 @@ class _PhoneNumberFieldState extends State<PhoneNumberField> {
               contentPadding: EdgeInsets.symmetric(horizontal: 16),
               enabledBorder: OutlineInputBorder(
                 borderSide: const BorderSide(
-                  color: ColorsApp.lighterGray,
+                  color: AppColors.lighterGray,
                   width: 0,
                 ),
                 borderRadius: BorderRadius.only(
@@ -63,7 +63,7 @@ class _PhoneNumberFieldState extends State<PhoneNumberField> {
               ),
               focusedBorder: OutlineInputBorder(
                 borderSide: const BorderSide(
-                  color: ColorsApp.mainBlue,
+                  color: AppColors.mainBlue,
                   width: 0,
                 ),
                 borderRadius: BorderRadius.only(

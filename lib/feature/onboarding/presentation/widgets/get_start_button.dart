@@ -18,7 +18,7 @@ class GetStartedButton extends StatelessWidget {
         await SharedPrefHelper.setData(SharedPrefKeys.isFirstTimeUser, false);
       },
       style: ButtonStyle(
-        backgroundColor: WidgetStateProperty.all(ColorsApp.mainBlue),
+        backgroundColor: WidgetStateProperty.all(AppColors.mainBlue),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
         minimumSize: WidgetStateProperty.all(
           const Size(double.infinity, 60),
@@ -31,7 +31,7 @@ class GetStartedButton extends StatelessWidget {
       ),
       child: Text(
           'Get Started',
-        style: TextStylesApp.font16WhiteMedium,
+        style: AppTextStyles.font16WhiteMedium,
       ),
       
     );

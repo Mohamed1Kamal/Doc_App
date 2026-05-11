@@ -11,7 +11,7 @@ class DoctorsListWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<SearchDoctorsCubit, SearchDoctorsState>(
-      buildWhen: (previous, current) => current.maybeWhen(
+      buildWhen: (previousState, currentState) => currentState.maybeWhen(
         searchDoctorsInitial: () => true,
         searchDoctorsLoading: () => true,
         searchDoctorsSuccess: (_) => true,

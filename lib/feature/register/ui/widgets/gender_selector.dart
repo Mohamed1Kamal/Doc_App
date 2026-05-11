@@ -21,16 +21,16 @@ class _GenderSelectorState extends State<GenderSelector> {
       decoration: InputDecoration(
         contentPadding: const EdgeInsets.symmetric(horizontal: 24, vertical: 20),
         hintText: "Select Gender",
-        hintStyle:  TextStylesApp.font14LightGrayRegular,
+        hintStyle:  AppTextStyles.font14LightGrayRegular,
 
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(16),
-          borderSide: BorderSide(color: ColorsApp.lighterGray, width: 1.3),
+          borderSide: BorderSide(color: AppColors.lighterGray, width: 1.3),
         ),
 
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(16),
-          borderSide: BorderSide(color: ColorsApp.mainBlue, width: 1.3),
+          borderSide: BorderSide(color: AppColors.mainBlue, width: 1.3),
         ),
         errorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(16),

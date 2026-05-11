@@ -32,7 +32,7 @@ class LoginBody extends StatelessWidget {
                 backgroundColor: Colors.green,
               ),
             );
-            Navigator.of(context).pushNamed(Routes.homeScreen);
+            Navigator.of(context).pushNamed(Routes.mainScreen);
             SharedPrefHelper.setSecuredString(
               SharedPrefKeys.userToken,
               data.userData?.token ?? '',
@@ -54,11 +54,11 @@ class LoginBody extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Welcome Back', style: TextStylesApp.font24BlueBold),
+                Text('Welcome Back', style: AppTextStyles.font24BlueBold),
                 verticalSpace(8),
                 Text(
                   'We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.',
-                  style: TextStylesApp.font14GrayRegular,
+                  style: AppTextStyles.font14GrayRegular,
                 ),
                 verticalSpace(36),
                 EmailAndPassword(),
@@ -68,7 +68,7 @@ class LoginBody extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       'Forgot Password?',
-                      style: TextStylesApp.font12BlueRegular,
+                      style: AppTextStyles.font12BlueRegular,
                     ),
                   ),
                 ),
@@ -82,7 +82,7 @@ class LoginBody extends StatelessWidget {
                   orElse: () {
                     return AppTextButton(
                       buttonText: 'login',
-                      textStyle: TextStylesApp.font16WhiteSemiBold,
+                      textStyle: AppTextStyles.font16WhiteSemiBold,
                       onPressed: () {
                         if (cubit.formKey.currentState!.validate()) {
                           cubit.login(

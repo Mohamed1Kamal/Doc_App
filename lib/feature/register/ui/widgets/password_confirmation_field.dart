@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../core/helper/app_regex.dart';
 import '../../../../core/widgets/app_text_form.dart';
 
 class PasswordConfirmationField extends StatefulWidget {
-  const PasswordConfirmationField({super.key, required this.passwordController});
+  const PasswordConfirmationField({super.key, required this.passwordConfirmationController, required this.passwordController});
+  final  TextEditingController passwordConfirmationController;
   final  TextEditingController passwordController;
 
 
@@ -19,6 +19,7 @@ class _PasswordConfirmationFieldState extends State<PasswordConfirmationField> {
   @override
   Widget build(BuildContext context) {
     return AppTextFormField(
+      controller: widget.passwordConfirmationController,
       isObscureText: isObscureText,
       suffixIcon: IconButton(
         onPressed: (){

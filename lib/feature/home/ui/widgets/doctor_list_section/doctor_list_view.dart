@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
+import 'package:flutter_projects/feature/home/data/models/specializations_response_model.dart';
+import 'package:flutter_projects/feature/home/ui/widgets/doctor_list_section/doctors_shimmer_loading.dart';
 import '../../../../../core/helper/spacing.dart';
-import '../../../data/models/doctors_response_model.dart';
 import '../../../logic/home_cubit.dart';
 import '../../../logic/home_states.dart';
 import 'doctor_item.dart';
@@ -15,21 +15,21 @@ class DoctorListView extends StatelessWidget {
     return BlocBuilder<HomeCubit, HomeStates>(
       buildWhen: (previous, current) {
         return current.maybeWhen(
-          doctorsLoading: () => true,
-          doctorsSuccess: (_) => true,
-          doctorsError: (_) => true,
+          specializationsLoading: () => true,
+          specializationDoctorsSuccess: (_) => true,
+          specializationDoctorsError: (_) => true,
           orElse: () => false,
         );
       },
       builder: (context, state) {
         return state.maybeWhen(
-          doctorsLoading: () {
+          specializationsLoading: () {
             return setupLoading();
           },
-          doctorsSuccess: (doctorsList) {
+          specializationDoctorsSuccess: (doctorsList) {
             return setupSuccess(doctorsList);
           },
-          doctorsError: (error) {
+          specializationDoctorsError: (error) {
             return setupError();
           },
           orElse: () => const SizedBox.shrink(),
@@ -43,18 +43,17 @@ class DoctorListView extends StatelessWidget {
   }
 
   Widget setupLoading() {
-    return const Center(child: CircularProgressIndicator());
+    return DoctorsShimmerLoading();
   }
 
-  Widget setupSuccess(List<DoctorsData>? doctorsList) {
-    int recommendedDoctors = doctorsList!.length > 6 ? 6 : doctorsList.length;
+  Widget setupSuccess(List<DoctorsModelData?>? doctorsList) {
+    
     return Expanded(
       child: ListView.separated(
         physics: BouncingScrollPhysics(),
-        itemBuilder: (context, index) =>
-            DoctorItem(doctorsData: doctorsList[index]),
+        itemBuilder: (context, index) => DoctorItem(doctorsData: doctorsList[index]),
         separatorBuilder: (context, index) => verticalSpace(40),
-        itemCount: recommendedDoctors,
+        itemCount: doctorsList!.length,
       ),
     );
   }

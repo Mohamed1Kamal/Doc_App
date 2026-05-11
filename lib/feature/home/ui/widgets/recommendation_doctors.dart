@@ -9,13 +9,13 @@ class RecommendationDoctors extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Text('Recommendation Doctor', style: TextStylesApp.font18BlackSemiBold),
+        Text('Recommendation Doctor', style: AppTextStyles.font18BlackSemiBold),
         Spacer(),
         TextButton(
           onPressed: () {
             Navigator.pushNamed(context, '/searchDoctors');
           },
-          child: Text('See All', style: TextStylesApp.font12BlueRegular),
+          child: Text('See All', style: AppTextStyles.font12BlueRegular),
         ),
       ],
     );

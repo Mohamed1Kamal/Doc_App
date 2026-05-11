@@ -25,7 +25,7 @@ class SearchBarWidget extends StatelessWidget {
               },
               decoration: InputDecoration(
                 hintText: 'Search for doctor',
-                hintStyle: TextStylesApp.font12LightGrayMedium,
+                hintStyle: AppTextStyles.font12LightGrayMedium,
                 border: InputBorder.none,
                 icon: SvgPicture.asset('assets/svgs/search_icon.svg'),
               ),

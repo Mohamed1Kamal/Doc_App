@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_projects/core/routing/routes.dart';
 import 'package:flutter_projects/feature/register/ui/register_view.dart';
 
 class AlreadyHaveAcountText extends StatelessWidget {
@@ -15,15 +16,8 @@ class AlreadyHaveAcountText extends StatelessWidget {
           style: TextStyle(color: Colors.grey[700]),
         ),
         GestureDetector(
-          onTap: () {
-            print("Sign Up clicked");
-          },
-          child: GestureDetector(
             onTap: () {
-              Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (context) => RegisterView(),
-                  ),);
+              Navigator.of(context).pushNamed(Routes.registerScreen);
             },
             child: const Text(
               "Sign Up",
@@ -33,7 +27,6 @@ class AlreadyHaveAcountText extends StatelessWidget {
               ),
             ),
           ),
-        ),
       ],
     );
   }

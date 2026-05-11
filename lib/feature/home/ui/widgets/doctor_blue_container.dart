@@ -34,7 +34,7 @@ class DoctorBlueContainer extends StatelessWidget {
               children: [
                 Text(
                   'Book and\nschedule with\nnearest doctor',
-                  style: TextStylesApp.font18WitheMedium,
+                  style: AppTextStyles.font18WitheMedium,
                   textAlign: TextAlign.start
                 ),
                 verticalSpace(16),
@@ -49,7 +49,7 @@ class DoctorBlueContainer extends StatelessWidget {
                     ),
                     child: Text(
                       'Find Nearby',
-                      style: TextStylesApp.font12BlueRegular,
+                      style: AppTextStyles.font12BlueRegular,
                     ),
                   ),
                 ),

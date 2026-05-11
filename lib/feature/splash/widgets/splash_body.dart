@@ -40,7 +40,7 @@ class _SplashBodyState extends State<SplashBody> {
             SvgPicture.asset("assets/svgs/doc_logo_splash.svg"),
             SizedBox(width: 10.w,),
             Text("Docdoc",
-              style: TextStylesApp.font24BlackW700.copyWith(fontSize: 45),
+              style: AppTextStyles.font24BlackW700.copyWith(fontSize: 45),
             )
 
           ],),

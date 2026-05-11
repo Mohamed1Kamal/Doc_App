@@ -18,9 +18,10 @@ class DocApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: ColorsApp.mainBlue),
+          fontFamily: 'Inter',
+          colorScheme: ColorScheme.fromSeed(seedColor: AppColors.mainBlue),
         ),
-        initialRoute: isFirstTimeUser? Routes.onBoardingView : isLoggedInUser ? Routes.homeScreen : Routes.loginView,
+        initialRoute: isFirstTimeUser? Routes.onBoardingView : isLoggedInUser ? Routes.mainScreen : Routes.loginView,
         onGenerateRoute: appRouter.generateRoute,
       ),
     );

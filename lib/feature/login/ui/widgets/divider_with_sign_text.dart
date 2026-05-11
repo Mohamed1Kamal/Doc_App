@@ -9,7 +9,7 @@ class DividerWithSignText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Expanded(child: Divider(color: ColorsApp.gray)),
+        Expanded(child: Divider(color: AppColors.gray)),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.0),
           child: Text(
