@@ -1,16 +1,24 @@
-# flutter_projects
+# Islami App
 
-A new Flutter project.
+## 📄 Table of Contents
 
-## Getting Started
+1. [🚀 Introduction](#introduction)
+2. [🛠️ Installation & Setup](#installation)
+3. [🤝 Contribution Guide](#contribution)
+4. [💻 Technical Stack](#tech-stack)
+5. [🎥 Demo Video](#demo)
+6. [✨ Features](#features)
+7. [📸 Screenshots](#screenshots)
+8. [👥 Contributors](#contributors)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## <a id="introduction"></a> 🚀 Introduction
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The Islami App is a comprehensive Islamic app designed to provide a seamless experience for users seeking religious content. It features Quran recitation, Hadith references, a digital Tasbeeh counter, a Quran radio, and customizable themes with support for localization.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## <a id="installation"></a> 🛠️ Installation & Setup
+*(Add your installation instructions here...)*
+
+## <a id="contribution"></a> 🤝 Contribution Guide
+*(Add your contribution guide here...)*
