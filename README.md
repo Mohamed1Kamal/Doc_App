@@ -1,4 +1,4 @@
-# 🩺 Omar - Appointment App
+# 🩺 Doc-Appointment App
 
 ## 📄 Table of Contents
 
