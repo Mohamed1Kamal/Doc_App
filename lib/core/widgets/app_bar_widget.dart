@@ -70,7 +70,7 @@ class AppBarWidget extends StatelessWidget {
               height: 24.h,
             ),
           ),
-        ),
+        ),    
 
       ],
     );
