@@ -89,21 +89,19 @@ Contributions are welcome! If you want to improve this app, please follow these 
 
 ---
 
-## <a id="screenshots"></a> 📸 Screenshots & Design
+## 📷 Screenshots
 
-Here is a glimpse of the application's user interface:
+| Splash | Quran                                             | Sura Content                                           |
+|------------------------------|---------------------------------------------------|--------------------------------------------------------|
+| ![Splash Screenshot](assets/screenshots/splash_screen.png) | ![Quran Screenshot](assets/screenshots/quran.png) | ![Sura Content Screenshot](assets/screenshots/sura_content.png) |
 
-<div align="center">
-  <!-- Replace the src links below with your actual image links from GitHub -->
-  <img src="https://via.placeholder.com/250x500.png?text=Home+Screen" width="200"/>
-  <img src="https://via.placeholder.com/250x500.png?text=Doctor+Details" width="200"/>
-  <img src="https://via.placeholder.com/250x500.png?text=Booking+Screen" width="200"/>
-  <img src="https://via.placeholder.com/250x500.png?text=FAQ+Screen" width="200"/>
-</div>
+| Hadeth                                              | Hadeth Content                                                      | Sebha                                             |
+|-----------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------|
+| ![Hadeth Screenshot](assets/screenshots/hadeth.png) | ![Hadeth Content Screenshot](assets/screenshots/hadeth_content.png) | ![Sebha Screenshot](assets/screenshots/tasbeeh.png) |
 
-<br>
-
-🔗 **[View the full Figma Design File Here](https://www.figma.com/design/WB4GtMqCEZqJtuaWXd2oYd/Omar---Appointment-App?node-id=0-1&p=f&t=G2gXPKthYZDvDfhO-0)**
+| Radio                                             |
+|---------------------------------------------------|
+| ![Radio Screenshot](assets/screenshots/radio.png) |
 
 ---
 
