@@ -93,7 +93,7 @@ Contributions are welcome! If you want to improve this app, please follow these 
 
 | Onboarding | Login                                             | Register                                           |
 |------------------------------|---------------------------------------------------|--------------------------------------------------------|
-| ![Onboarding Screenshot](assets/screenshots/onboarding_screen.png) | ![Register Screenshot](assets/screenshots/register_screen.png) |
+| ![Onboarding Screenshot](assets/screenshots/onboarding_screen.png) | ![Login Screenshot](assets/screenshots/login_screen.png)| ![Register Screenshot](assets/screenshots/register_screen.png) |
 
 | Profile                                              | Payment                                                      | Settings                                             |
 |-----------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------|
