@@ -27,12 +27,12 @@ To run this project locally, ensure you have [Flutter](https://flutter.dev/docs/
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/omar_appointment_app.git
+git clone https://github.com/Mohamed1Kamal/Doc_App.git
 ```
 
 **2. Navigate to the project directory:**
 ```bash
-cd omar_appointment_app
+cd flutter_projects
 ```
 
 **3. Install dependencies:**
@@ -65,7 +65,7 @@ Contributions are welcome! If you want to improve this app, please follow these 
 * **Language:** Dart
 * **Architecture:** Clean Architecture / MVVM
 * **State Management:** Bloc / Cubit
-* **Networking:** Dio / REST APIs
+* **Networking:** Dio / REST APIs with freezed and retrofit
 * **Routing:** App Router
 * **Design Implementation:** Figma to Flutter
 
