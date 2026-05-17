@@ -91,17 +91,17 @@ Contributions are welcome! If you want to improve this app, please follow these 
 
 ## 📷 Screenshots
 
-| Splash | Quran                                             | Sura Content                                           |
+| Onboarding | Login                                             | Register                                           |
 |------------------------------|---------------------------------------------------|--------------------------------------------------------|
-| ![Splash Screenshot](assets/screenshots/splash_screen.png) | ![Quran Screenshot](assets/screenshots/quran.png) | ![Sura Content Screenshot](assets/screenshots/sura_content.png) |
+| ![Onboarding Screenshot](assets/screenshots/onboarding_screen.png) | ![Register Screenshot](assets/screenshots/register_screen.png) |
 
-| Hadeth                                              | Hadeth Content                                                      | Sebha                                             |
+| Profile                                              | Payment                                                      | Settings                                             |
 |-----------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------|
-| ![Hadeth Screenshot](assets/screenshots/hadeth.png) | ![Hadeth Content Screenshot](assets/screenshots/hadeth_content.png) | ![Sebha Screenshot](assets/screenshots/tasbeeh.png) |
+| ![Profile Screenshot](assets/screenshots/profile_screen.png) | ![Payment Screenshot](assets/screenshots/payment_screen.png) | ![Settings Screenshot](assets/screenshots/settings_screen.png) |
 
-| Radio                                             |
+| Security                                             |
 |---------------------------------------------------|
-| ![Radio Screenshot](assets/screenshots/radio.png) |
+| ![Security Screenshot](assets/screenshots/security_screen.png) |
 
 ---
 
