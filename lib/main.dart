@@ -1,4 +1,3 @@
-
 import 'dart:core';
 import 'dart:core' as debug;
 import 'package:bloc/bloc.dart';
@@ -23,9 +22,10 @@ Future<void> checkIfLoggedInAndNotFirstTimeUser() async {
   String? token = await SharedPrefHelper.getSecuredString(
     SharedPrefKeys.userToken,
   );
-  bool? isFirstTimeUserValue = await SharedPrefHelper.getBool(
-    SharedPrefKeys.isFirstTimeUser,
-  );
+  // bool? isFirstTimeUserValue = await SharedPrefHelper.getBool(
+  //   SharedPrefKeys.isFirstTimeUser,
+
+  bool? isFirstTimeUserValue = true;
   debug.print('main : isFirstTimeUserValue: $isFirstTimeUserValue');
 
   if (isFirstTimeUserValue == false) {
@@ -35,5 +35,5 @@ Future<void> checkIfLoggedInAndNotFirstTimeUser() async {
     } else {
       isLoggedInUser = false;
     }
-  } 
+  }
 }
